@@ -25,5 +25,8 @@ BOARD_HAVE_QCOM_FM := true
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
+# Security Patch
+PLATFORM_SECURITY_PATCH := 2018-11-01
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
