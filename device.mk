@@ -30,6 +30,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc \
+	init.simple.sh
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
