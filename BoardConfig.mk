@@ -25,9 +25,6 @@ BOARD_HAVE_QCOM_FM := true
 # Kernel
 TARGET_KERNEL_CONFIG := simple-beryllium_defconfig
 
-# Security Patch
-PLATFORM_SECURITY_PATCH := 2018-11-01
-
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
