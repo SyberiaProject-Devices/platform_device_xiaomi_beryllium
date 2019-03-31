@@ -1,0 +1,19 @@
+[{
+		"repository": "SyberiaProject-Devices/platform_device_xiaomi_sdm845-common",
+		"target_path": "device/xiaomi/sdm845-common"
+	},
+ 	{
+		"repository": "ethan-halsall/Simple-Kernel",
+		"target_path": "kernel/xiaomi/sdm845",
+		"branch": "simple-pie"
+	},
+	{
+		"repository": "LineageOS/android_packages_resources_devicesettings",
+		"target_path": "packages/resources/devicesettings",
+		"branch": "lineage-16.0"
+	},
+	{
+		"repository": "SyberiaProject-Devices/proprietary_vendor_xiaomi",
+		"target_path": "vendor/xiaomi"
+	}
+]
