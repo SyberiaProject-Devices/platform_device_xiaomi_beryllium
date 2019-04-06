@@ -32,8 +32,7 @@ $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.target.rc \
-	init.simple.sh
+    init.target.rc 
 
 # Input
 PRODUCT_COPY_FILES += \
