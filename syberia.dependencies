@@ -5,7 +5,7 @@
  	{
 		"repository": "ethan-halsall/Simple-Kernel",
 		"target_path": "kernel/xiaomi/sdm845",
-		"branch": "simple-pie"
+		"branch": "stable"
 	},
 	{
 		"repository": "LineageOS/android_packages_resources_devicesettings",
